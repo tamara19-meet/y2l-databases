@@ -7,5 +7,9 @@ Base = declarative_base()
 
 # Write your classes here :
 class Product(Base):
-    # TODO: complete this class
-    pass
+	__tablename__ = 'EYELASH GLUE'
+	id = Column(Integer, primary_key=True)
+	name = Column(String)
+	Comes_with= Column(String)
+	Type_of_celebration= Column(String)
+	price=Column(Integer)
